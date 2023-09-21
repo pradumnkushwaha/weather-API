@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="outerbox">
+      <div class="weather">Weather</div>
+      <div class="your">
+        <div class="yourweather" onclick="your_weather()">your Weather</div>
+        <div class="search" onclick="search_weather()">Search weather</div>
+      </div>
+      <div class="content" id="contents">
+        <div class="city">Satna</div>
+        <div class="clouds">clouds</div>
+        <div class="temp">23.c</div>
+        <div class="feature">
+          <div class="windspeed">
+            windspeed
+            <div class="windspeed_data">148m/s</div>
+          </div>
+          <div class="humidity">
+            humidity
+            <div class="humidity_data">38%</div>
+          </div>
+          <div class="cloudsData">
+            clouds
+            <div class="clouds_data">40%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content_search" id="contents_search">
+        <div id="searchs">
+          <input id="search_bar" />
+          <button>
+            <img src="/search_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+          </button>
+        </div>
+        <div class="search_content" id="searchs_content">
+          <div class="city">Satna</div>
+          <div class="clouds">clouds</div>
+          <div class="temp">23.c</div>
+          <div class="feature">
+            <div class="windspeed">
+              windspeed
+              <div class="windspeed_data">148m/s</div>
+            </div>
+            <div class="humidity">
+              humidity
+              <div class="humidity_data">38%</div>
+            </div>
+            <div class="cloudsData">
+              clouds
+              <div class="clouds_data">40%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
