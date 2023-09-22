@@ -35,27 +35,27 @@
 
       <div class="content_search" id="contents_search">
         <div id="searchs">
-          <input id="search_bar" />
+          <input id="search_bar"  value=""/>
           <button>
-            <img src="/search_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+            <img src="/search_FILL0_wght400_GRAD0_opsz24.png" onclick=searchClicked() />
           </button>
         </div>
         <div class="search_content" id="searchs_content">
-          <div class="city">Satna</div>
-          <div class="clouds">clouds</div>
-          <div class="temp">23.c</div>
+          <div class="city" id="city">Satna</div>
+          <div class="clouds" id="clouds"  >clouds</div>
+          <div class="temp" id="temp">23<p>.c</p></div>
           <div class="feature">
-            <div class="windspeed">
+            <div class="windspeed" id="windspeed">
               windspeed
-              <div class="windspeed_data">148m/s</div>
+              <div class="windspeed_data" id="windspeed_data">148 <p>m/s</p></div>
             </div>
             <div class="humidity">
               humidity
-              <div class="humidity_data">38%</div>
+              <div class="humidity_data" id="humidity_data">38<p>%</p></div>
             </div>
             <div class="cloudsData">
               clouds
-              <div class="clouds_data">40%</div>
+              <div class="clouds_data" id="clouds_data">40<p>%</p></div>
             </div>
           </div>
         </div>
