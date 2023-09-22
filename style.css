@@ -82,3 +82,87 @@
 .searchs{
     opacity: 1;
 } 
+*{
+    margin: 0;
+    padding: 0;
+}
+.outerbox{
+    /* background-color: rgb(205, 216, 255); */
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+   
+}
+.weather{
+    margin-top: 20px;
+    align-self: center;
+}
+.your{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+.content{
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+}
+.clouds{
+    margin: 10px;
+}
+.temp{
+    margin: 10px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.windspeed{
+    margin: 10px;
+}
+.humidity{
+    margin: 10px;
+}
+.cloudsData{
+    margin: 10px;
+}
+.content_search{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 40%;
+   
+    position: absolute;
+}
+.city , .clouds, .temp {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .search_content{
+    opacity: 0;
+}
+.searchs{
+    opacity: 1;
+} 
